@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from rest_framework import serializers
-from models import LinkCategory
-from models import LinkList
+from .models import LinkCategory
+from .models import LinkList
 
 
 class Categoryserializer(serializers.ModelSerializer):
